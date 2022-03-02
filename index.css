@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#root{
+    max-width: 450px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+h1{
+    color: lightpink;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+    margin: 1rem 0.5rem;
+}
+
+#taskinput{
+    display: inline-block;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    width: 70%;
+}
+
+button{
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 2px solid #007bff;
+}
+
+#form{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+}
+
+.editable{
+    width: 70%;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+input[type="checkbox"]{
+    margin: 0.5rem 1em;
+}
